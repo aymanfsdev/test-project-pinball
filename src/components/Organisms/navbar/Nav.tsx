@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 
 import { ValueType } from '../../../types';
 import { NavProps } from '../../../types/props';
-import Input from '../../Atoms/Form/Input';
 import NormalInput from '../../Atoms/Form/NormalInput';
 import Icon from '../../Atoms/Icon';
 import UserAvatar from '../../Molecules/Avatar/Avatar';

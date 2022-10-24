@@ -1,0 +1,214 @@
+@import '../../main';
+
+.modal-content-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-content {
+    border-radius: 20px !important;
+
+    .message {
+        font-size: 18px;
+        text-align: center;
+        color: #212529;
+        font-weight: 400;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+.modal-footer {
+    border: none !important;
+    padding: 0 !important;
+}
+
+
+.side-modal {
+    .modal-dialog {
+        margin: 0 !important;
+        margin-left: auto !important;
+        max-width: 60% !important;
+
+        .modal-content {
+            border-radius: 0px !important;
+            height: 100vh;
+            overflow-y: scroll;
+            @include modal-scrollbar();
+
+            .close-icon {
+                cursor: pointer;
+            }
+
+            .close-txt {
+                font-size: 14px;
+                margin-right: 8px;
+            }
+
+            .content-item {
+                .item-name {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #212529;
+
+                    img {
+                        cursor: pointer;
+                    }
+                }
+
+                .holder {
+                    margin-right: 0.3rem;
+
+                    .content-sub-item {
+                        background-color: #E7E7E7;
+
+                        p {
+                            color: #212529;
+                            font-weight: 600;
+                            font-size: 12px;
+                        }
+                    }
+
+                    .subitem-icon {
+                        img {
+                            margin-top: -7px;
+                        }
+                    }
+
+                    &.col-lg-3 {
+                        flex: 0 0 auto;
+                        width: 31%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.side-modal-print {
+    .modal-dialog {
+        margin: 0 !important;
+        margin-left: auto !important;
+        max-width: 80% !important;
+
+        .modal-content {
+            border-radius: 0px !important;
+            height: 100vh;
+            overflow-y: scroll;
+            @include modal-scrollbar();
+
+            .close-icon {
+                cursor: pointer;
+            }
+
+            .close-txt {
+                font-size: 14px;
+                margin-right: 8px;
+            }
+
+            .content-item {
+                .item-name {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #212529;
+
+                    img {
+                        cursor: pointer;
+                    }
+                }
+
+                .holder {
+                    margin-right: 0.3rem;
+
+                    .content-sub-item {
+                        background-color: #E7E7E7;
+
+                        p {
+                            color: #212529;
+                            font-weight: 600;
+                            font-size: 12px;
+                        }
+                    }
+
+                    .subitem-icon {
+                        img {
+                            margin-top: -7px;
+                        }
+                    }
+
+                    &.col-lg-3 {
+                        flex: 0 0 auto;
+                        width: 31%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.center-modal {
+    .modal-dialog {
+        margin-left: auto !important;
+        max-width: 60% !important;
+
+        .modal-content {
+            border-radius: 0px !important;
+            @include modal-scrollbar();
+
+            .close-icon {
+                cursor: pointer;
+            }
+
+            .close-txt {
+                font-size: 14px;
+                margin-right: 8px;
+            }
+
+            .content-item {
+                .item-name {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #212529;
+
+                    img {
+                        cursor: pointer;
+                    }
+                }
+
+                .holder {
+                    margin-right: 0.3rem;
+
+                    .content-sub-item {
+                        background-color: #E7E7E7;
+
+                        p {
+                            color: #212529;
+                            font-weight: 600;
+                            font-size: 12px;
+                        }
+                    }
+
+                    .subitem-icon {
+                        img {
+                            margin-top: -7px;
+                        }
+                    }
+
+                    &.col-lg-3 {
+                        flex: 0 0 auto;
+                        width: 31%;
+                    }
+                }
+            }
+        }
+
+        .modal-border {
+            border: 1px solid #dee2e6 !important;
+        }
+    }
+}

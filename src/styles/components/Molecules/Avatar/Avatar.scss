@@ -1,0 +1,29 @@
+@import '../../../main';
+
+.circle {
+    width: 23px;
+    margin-top: 3px;
+    height: 23px;
+    display: block;
+    border-radius: 50%;
+    background-color: color(dark-blue);
+
+
+}
+
+p {
+    margin-top: 6px;
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2D5474;
+}
+
+.rounded-profile {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.svg_hover:hover {
+    filter: invert(55%) sepia(70%) saturate(6008%) hue-rotate(276deg) brightness(80%) contrast(75%);
+}

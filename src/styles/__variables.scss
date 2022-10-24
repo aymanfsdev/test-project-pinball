@@ -1,0 +1,13 @@
+$colors: (
+    purple: #9E41D6,
+    dark-blue: #2D5474,
+    light-gray: #EEF1F4,
+    semi-black: #212529,
+    almostwhite:#F8FAFB,
+    
+);
+
+
+@function color($color) {
+    @return map-get($colors, $color);
+}

@@ -1,0 +1,49 @@
+@import "../main";
+
+.bg {
+    background-color: #F8FAFB;
+    max-height: 100vh;
+    padding: 0;
+    width: 100vw;
+    overflow: hidden;
+
+    @include main-scrollbar();
+
+
+    .sidebar-content {
+        margin-top: -5.68px;
+    }
+
+    .main-content {
+        padding: 0.8rem 1.3rem;
+        margin-bottom: 5rem;
+        overflow-y: scroll;
+        height: calc(100vh - 53px);
+        @include main-scrollbar();
+    }
+
+    @media (min-width: 992px) {
+        .col-side {
+            flex: 0 0 auto;
+            width: 19%;
+        }
+    }
+    @media (min-width: 992px) {
+        .col-side-content {
+            flex: 0 0 auto;
+            height: 100vh;
+            width: 81%;
+        }
+
+        .col-side-content-full {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+    }
+
+}
+
+.checkboxGroup {
+    
+}
+

@@ -1,0 +1,28 @@
+@import '../../../main';
+
+.infoboard-con {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    background: #2D5474;
+    border: 1px solid #2D5474;
+    border-radius: 10px;
+}
+
+.infoboard-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.infoboard-count {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    color: #FFFFFF;
+}

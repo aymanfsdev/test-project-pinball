@@ -1,0 +1,75 @@
+@import '../../../main';
+
+button {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background-color: color(purple);
+    border: none;
+    text-transform: uppercase !important;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    &.whitish {
+        background-color: #F8FAFB !important;
+        color: #212529 !important;
+        font-weight: 400;
+        text-transform: capitalize !important;
+        letter-spacing: 0px !important;
+        font-size: 13px !important;
+    }
+
+    &.blueish {
+        background-color: #EEF1F4 !important;
+        color: #212529 !important;
+        font-weight: 700;
+        text-transform: capitalize !important;
+        letter-spacing: 0px !important;
+        font-size: 13px !important;
+    }
+
+    &.curved-border-left {
+        border-bottom-left-radius: 20px;
+    }
+
+    &.curved-border-right {
+        border-bottom-right-radius: 20px;
+    }
+
+    &.no-styles {
+        background-color: transparent !important;
+        padding: 0 !important;
+    }
+
+    &.b-radius {
+        border-radius: 6px !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        // padding: 0.6rem 1rem;
+    }
+
+    &.light {
+        color: #9E41D6 !important;
+        background-color: #9d41d622 !important;
+        border-color: #9d41d622 !important;
+    }
+
+    &.back-grey {
+        background-color: #EEF1F4;
+        color: black;
+    }
+
+    &.reset-btn {
+        letter-spacing: 0px !important;
+        font-size: 14px !important;
+        margin-right: 5px !important;
+        ;
+    }
+
+    &.active-btn {
+        background-color: #2EE1011A;
+        color: #2EE101;
+    }
+}

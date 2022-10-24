@@ -1,0 +1,58 @@
+@import "./__variables";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@mixin scrollbar {
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: rgb(209, 209, 209);
+    }
+    
+    &::-webkit-scrollbar {
+        width: 4px;
+        background-color: rgb(209, 209, 209);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #2d54748a;
+        
+    }
+}
+
+
+@mixin main-scrollbar {
+    &::-webkit-scrollbar-track {
+        border-radius: 4px;
+        background-color: rgb(237, 236, 236);
+    }
+    
+    &::-webkit-scrollbar {
+        width: 30px;
+        background-color: rgb(237, 236, 236);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,0.16);
+        
+    }
+}
+
+
+@mixin modal-scrollbar {
+    &::-webkit-scrollbar-track {
+        border-radius: 4px;
+        background-color: rgb(237, 236, 236);
+    }
+    
+    &::-webkit-scrollbar {
+        width: 20px;
+        background-color: rgb(237, 236, 236);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,0.16);
+        
+    }
+}

@@ -1,0 +1,230 @@
+.gstc__chart-calendar-date-content.gstc__chart-calendar-date-content--week {
+  font-family: Inter;
+  text-align: left;
+  font-size: 12px;
+  color: #212529;
+  margin-left: 12px;
+}
+
+.gstc__chart-calendar-date-content.gstc__chart-calendar-date-content--day {
+  font-family: Inter;
+  font-size: 10px;
+  color: #212529;
+  width: 45px !important;
+  margin-left: 0;
+}
+
+.timesheet-row {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .timesheet-profile {
+    display: flex;
+    width: 100%
+  }
+
+  & p {
+    margin: 0;
+    font-weight: normal;
+    color: #2D5474
+  }
+
+  &.show-summary {
+    & .timesheet-row-summary {
+      display: flex;
+    }
+
+    & .timesheet-profile {
+      display: none;
+    }
+  }
+
+  &-profile {
+    * {
+      line-height: 1em;
+      font-size: 12px;
+      color: #212529;
+    }
+  }
+
+  &-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &-summary {
+    display: none;
+    background: #F8FAFB;
+    font-size: 10px;
+    height: 68px;
+    width: 100%;
+    box-shadow: inset 0px 1px 0px #EFF3F6;
+    line-height: 1em;
+
+    & * {
+      line-height: 1em;
+    }
+
+    & p {
+      line-height: 1.1em;
+      font-size: 10px;
+    }
+  }
+}
+
+.gstc__chart-timeline-grid-row-cell.current {
+  background-color: #fff !important;
+}
+
+.gstc__chart-timeline-items-row-item {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.item-timesheet-text {
+  background-color: #fff;
+  box-shadow: 0px 2px 3px rgba(20, 50, 80, 0.05);
+  border-radius: 5px;
+  color: #212529;
+
+  .item-label {
+    font-weight: 700;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .item-description {
+    font-size: 10px;
+    margin-top: 2px;
+    line-height: 1em;
+    color: #2D5474;
+  }
+}
+
+.gstc__chart-timeline-items-row-item-label {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.item-summary-row {
+  .gstc__chart-timeline-items-row-item-label {
+    margin: 0 !important;
+  }
+
+  .item-timesheet-text {
+    background-color: #EEF1F4;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 8px;
+
+    img,
+    svg,
+    embed {
+      display: none;
+    }
+  }
+}
+
+.timeline-selection {
+  width: 160px;
+  font-size: 16px;
+  font-weight: bold;
+
+  button {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    color: #2D5474;
+  }
+}
+
+.timeline-buttons {
+  margin-left: 90px;
+  position: absolute;
+  right: 1rem;
+
+  button {
+    margin-right: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .timesheet_make_change {
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #9E41D6;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .timesheet_print_document {
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #26A53F;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.gstc__chart-calendar-date.gstc__chart-calendar-date--week.gstc__chart-calendar-date--non-main-date.gstc__chart-calendar-date--level-0 .gstc-current {
+  font-weight: bold;
+  color: #9E41D6;
+}
+
+.gstc__chart-calendar-date.gstc__chart-calendar-date--day.gstc__chart-calendar-date--non-main-date.gstc__chart-calendar-date--level-2.gstc-current {
+  font-weight: bold;
+
+  * {
+    color: #9E41D6;
+  }
+}
+
+.gstc__chart-calendar-date.gstc__chart-calendar-date--day.gstc__chart-calendar-date--main-date.gstc__chart-calendar-date--level-1.gstc-current {
+  font-weight: bold;
+  box-shadow: none;
+
+  * {
+    color: #9E41D6;
+  }
+}
+
+.timeline-pagination {
+  color: #212529;
+  font-size: 14px;
+
+  .bold {
+    font-weight: 600;
+  }
+
+  select {
+    background-color: #fff;
+    width: 120px;
+    border: 1px solid #fff;
+    outline: none;
+  }
+}
+
+.gstc__chart-timeline-grid-row-cell.current {
+  background-color: #E7E7E7 !important;
+}
+
+.item-toggle {
+  &:not(.with-parent) {
+    img {
+      display: none;
+    }
+
+    background: #F8FAFB;
+  }
+}

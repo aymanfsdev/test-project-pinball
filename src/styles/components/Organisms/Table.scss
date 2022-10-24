@@ -1,0 +1,38 @@
+@import '../../main';
+
+span.text-xs {
+    letter-spacing: 0px !important;
+}
+
+.drop-content-btn {
+    border-radius: 0px !important;
+}
+
+.contentrows {
+    cursor: pointer;
+}
+
+.headerclick {
+    cursor: pointer;
+}
+
+td span[class^='circle'] {
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    &.circle-fail {
+        background-color: #FF0000;
+    }
+    &.circle-success {
+        background-color: #26A53F;
+    }
+}td.sortedasc::after {
+    content: "\25b2";
+}
+
+td.sorteddesc::after {
+    content: "\25bc";
+}

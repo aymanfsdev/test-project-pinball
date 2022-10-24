@@ -1,0 +1,88 @@
+@import "./main";
+
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.f-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-light-gray {
+    background-color: color(light-gray) !important;
+}
+
+.btn-print{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.bg-purple{
+    background-color: color(purple) !important;
+}
+
+.bg-almost-white{
+    background-color: color(white) !important;
+}
+
+.h-auto{
+    height: auto !important;
+}
+
+.w-auto{
+    width: auto !important;
+}
+
+.z-10{
+    z-index: 10 !important;
+}
+
+.w-20{
+    width: 94px !important;
+}
+.h-20{
+    height: 94px !important;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.h-8{
+    height: 30px !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+    display: none !important;
+}
+
+.css-tlfecz-indicatorContainer svg {
+    fill: #3a3838 !important;
+}
+
+button:focus{
+    outline: none !important;
+    box-shadow: inset 0 0 0 #ddd !important;
+}
+
+.tracking-0{
+    letter-spacing: 0 !important;
+}
+
+.css-ab2pqw-control {
+    font-size: 12px !important;
+}
+
+.select {
+    // background-color: red !important;
+    > div {
+        div {
+            font-size: 12px !important;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+@import '../../main';
+
+.bg-sidebar {
+    background: white;
+    height: 100vh;
+
+    .sidebar-header {
+        display: flex;
+        padding: 0.8rem 0rem;
+
+        img {
+            margin-left: 2.5rem;
+            // margin-top: 0.8rem;
+        }
+    }
+
+    .sidebar-list-items {
+        @include scrollbar();
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 100%;
+    }
+}
+
+
+
+.list-items {
+    // padding: 1rem 2.4rem;
+    margin-bottom: 0.08rem;
+    transition: all 0.3s ease-in;
+
+    p {
+        color: white !important;
+        cursor: pointer;
+        background-color: #2D5474;
+        padding: 1rem 2.2rem;
+        transition: all 0.3s ease-in;
+
+
+        width: 100%;
+        font-size: 14px;
+
+        img {
+            width: 16px;
+            cursor: pointer;
+            margin-left: 4px;
+        }
+    }
+
+    .icon-holder {
+        background-color: #2D5474;
+        cursor: pointer;
+
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+
+.list-sub-items {
+    background-color: white;
+    transition: all 0.3s ease-in;
+
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+
+    p.active {
+        color: #212529 !important;
+        font-weight: 600;
+    }
+
+    span.active-show {
+        background-color: #EEF1F4;
+        padding: 6px 5px;
+    }
+
+    p {
+        color: #2D5474 !important;
+        background-color: white;
+        cursor: pointer;
+        font-size: 13px;
+        padding: 0.6rem 2rem;
+        font-weight: 400;
+
+        .label-icon {
+            margin-right: 0.4rem;
+            margin-top: -3px;
+        }
+    }
+
+    .nested-items {
+        background-color: #EEF1F4 !important;
+    }
+
+}
+
+.list-nested-items {
+    background-color: #EEF1F4;
+
+    p {
+        padding: 0.6rem 3.9rem;
+        cursor: pointer;
+        background-color: #EEF1F4;
+    }
+}
+
+.arrow-icon-active {
+    top: 1rem;
+    right: 1rem;
+    background-color: #EEF1F4 !important;
+}
+
+.arrow-icon {
+    top: 1rem;
+    right: 1rem;
+}
